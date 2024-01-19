@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+
+    /* Common Styles */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Nav Here */
+    nav {
+        flex-direction: column;
+    }
+
+    /* Hero Here */
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    /* Products Here */
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+        /* width: 100%; */
+        /* max-width: 100%; */
+    }
+}
