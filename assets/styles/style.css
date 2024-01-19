@@ -65,6 +65,7 @@ button {
     font-size: 2rem;
     outline: none;
     border: none;
+    border-radius: .8rem;
 
 }
 
@@ -76,11 +77,11 @@ button {
 
 
 /* Header Section Start  */
-header {
-    margin: 3.5rem 0;
-}
 
+/* Navbar Section Start */
 nav {
+    max-width: 100%;
+    margin-top: 3.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,5 +112,36 @@ nav .nav-logo span {
 .menu-item ul li a:hover {
     color: var(--brand-clr);
 }
+
+/* Navbar Section End */
+
+/* Hero Section Start */
+.hero-section {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    height: 50rem;
+}
+
+.hero-section-content,
+.hero-section-img {
+    flex: 1;
+}
+
+.hero-section-content .hero-title {
+    font-size: 5rem;
+}
+
+.hero-section-content .hero-des {
+    margin: 1rem 0 2rem 0;
+}
+
+.hero-section-img img {
+    width: 100%;
+    border-radius: .8rem;
+}
+
+/* Hero Section End */
 
 /* Header Section End */
