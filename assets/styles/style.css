@@ -12,6 +12,7 @@
 :root {
     --primary-clr: #606d5f;
     --secondary-clr: #888888;
+    --brand-clr: #ffa500;
 }
 
 html {
@@ -71,3 +72,44 @@ button {
     max-width: 80%;
     margin: 0 auto;
 }
+
+
+
+/* Header Section Start  */
+header {
+    margin: 3.5rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-logo {
+    font-size: 4rem;
+}
+
+nav .nav-logo span {
+    color: var(--brand-clr);
+}
+
+.menu-item ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.menu-item ul li {
+    transition: all 0.5s;
+}
+
+.menu-item ul li a {
+    font-size: 2rem;
+}
+
+.menu-item ul li a:hover {
+    color: var(--brand-clr);
+}
+
+/* Header Section End */
