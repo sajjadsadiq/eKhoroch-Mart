@@ -17,7 +17,7 @@
 
     /* Hero Here */
     .hero-section {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         padding: 4rem 0;
     }
